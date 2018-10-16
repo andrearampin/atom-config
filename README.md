@@ -15,3 +15,9 @@ And add that file to Git also. To restore, use:
 ```
 apm install --packages-file ./package.list
 ```
+
+## Update standard config
+
+```
+cp config.cson ~/.atom
+```
