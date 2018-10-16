@@ -1,0 +1,34 @@
+"*":
+  core:
+    disabledPackages: [
+      "linter-rubocop"
+      "linter-reek"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "dracula-ui"
+      "dracula-syntax"
+    ]
+  editor:
+    fontSize: 11
+    invisibles: {}
+    softTab: true
+    softWrap: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "9f68fa2a-52b1-49f1-b154-96c6e71aa499"
+  fonts:
+    fontFamily: "Droid Sans Mono"
+  "go-plus":
+    config: {}
+    test: {}
+  "linter-ui-default":
+    panelHeight: 300
+  "markdown-preview": {}
+  "tree-view":
+    autoReveal: true
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
+"linter-rubocop":
+  command: "/Users/andrea/.rbenv/shims/rubocop"
