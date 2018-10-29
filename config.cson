@@ -4,6 +4,7 @@
       "linter-rubocop"
       "linter-reek"
     ]
+    excludeVcsIgnoredPaths: false
     telemetryConsent: "no"
     themes: [
       "dracula-ui"
@@ -23,11 +24,10 @@
     config: {}
     test: {}
   "linter-ui-default":
-    panelHeight: 300
+    panelHeight: 204
   "markdown-preview": {}
   "tree-view":
     autoReveal: true
-    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
 "linter-rubocop":
